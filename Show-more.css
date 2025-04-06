@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    background: #28869d;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 48px;
+    font-family: 'Covered By Your Grace', sans-serif;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 20px;
+}
+.main {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 950px;
+    height: 570px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 1200px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 200, 200);
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.card h2 {
+    color:  #28869d;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #444;
+}

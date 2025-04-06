@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TravelUp.css">
+    <title>TravelUp</title>
+</head>
+<body>
+    <header> 
+        <h1 class="title">TravelUp</h1>     
+        <form onsubmit="window.location.href = document.getElementById('search').value + '.html'; return false;">
+            <div>
+                <input type="text" id="search" placeholder="Search" />
+            </div>
+        </form>
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Explore">Explore</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Home" class="Home">
+            <div class="shadow"></div>
+            <div class="Home-content">
+                <h1>Discover The World</h1>
+                <p>Travel and explore different places, cultures, and experiences to see the beauty of the world.</p>
+                <a href="#Explore" class="button">Explore Now</a>
+            </div>
+        </section>
+        <div id="Explore">
+        <h1 class="destinations-h1">Spotlight destinations</h1>
+        <section  class="Explore">
+            <div class="Explore-card">
+                <img src="Paris.jpg" alt="Paris">
+                <div class="Explore-card-content">
+                    <h2>Paris</h2>
+                    <p>he city of love, known for the Eiffel Tower, beautiful streets,
+                         art museums, and delicious pastries like croissants and macarons.</p>
+                    <a href="paris.html">
+                        <button>Show more</button>
+                    </a>
+                </div>
+            </div>
+            <div class="Explore-card">
+                <img src="Kyoto.jpg" alt="Kyoto">
+                <div class="Explore-card-content">
+                    <h2>Kyoto</h2>
+                    <p>A peaceful city filled with ancient temples, stunning cherry blossoms,
+                         traditional tea houses, and the famous bamboo forest.</p>
+                    <a href="kyoto.html"><button>Show more</button></a>
+                </div>
+            </div>
+            <div class="Explore-card">
+                <img src="Granada.avif" alt="Granada">
+                <div class="Explore-card-content">
+                    <h2>Granada</h2>
+                    <p>The Alhambra Palace offers breathtaking views of the city and the Sierra Nevada mountains.
+                         A historic gem with incredible architecture.</p>
+                    <a href="granada.html"><button>Show more</button></a>
+                </div>
+            </div>
+            <div class="Explore-card">
+                <img src="Santorini.jpg" alt="Santorini">
+                <div class="Explore-card-content">
+                    <h2>Santorini</h2>
+                    <p> A breathtaking island with white houses, blue-domed churches, crystal-clear waters
+                        , and unforgettable sunsets over the Aegean Sea</p>
+                    <a href="santorini.html"><button>Show more</button></a>
+                </div>
+            </div>
+        </section>
+        </div>
+        <section id="Services" class="Services">
+            <div class="shadow"></div>
+            <div class="Services-content">
+                <h2>Book Your Flight</h2>
+                <p>Choose your destination, book your ticket, and get ready to fly!</p>
+                <a href="Services.html" class="button">Book Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="Contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#">Luxury Resorts</a></li>
+                    <li><a href="#">Adventure Travel</a></li>
+                    <li><a href="#">Culinary Experiences</a></li>
+                    <li><a href="#">Wellness Retreats</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">X</a></li>
+                    <li><a href="">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TravelUp. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

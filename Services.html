@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Your Flight</title>
+  <link rel="stylesheet" href="Services.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book Your Flight</h1>
+    <p>Select your destination and get ready for your next adventure!</p>
+
+    <form class="form" action="confirmation.html">
+      <label for="from">From:</label>
+      <select id="from" name="from" required>
+        <option value="">Select Country</option>
+        <option value="Tunisia">Tunisia</option>
+        <option value="France">France</option>
+        <option value="USA">USA</option>
+        <option value="Japan">Japan</option>
+      </select>
+
+      <label for="to">To:</label>
+      <select id="to" name="to" required>
+        <option value="">Select Destination</option>
+        <option value="Italy">Kyoto</option>
+        <option value="Canada">Paris</option>
+        <option value="Egypt">Granada</option>
+        <option value="Brazil">Santorini</option>
+      </select>
+
+      <label for="date">Departure Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Search Flights</button>
+  </div>
+</body>
+</html>
